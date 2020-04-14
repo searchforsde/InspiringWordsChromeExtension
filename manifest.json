@@ -1,0 +1,20 @@
+{
+"manifest_version": 2, 
+"name": "InspiringWords", 
+"description": "Shows inspiring words you need every time when you open a new tab", 
+"version": "1", 
+"author": "Sarah Li",
+    
+"browser_action": {
+    "default_icon": "tab-icon.png",   
+    "default_title": "Have a good day",
+    "default_popup": "popup.html"
+},
+
+"chrome_url_overrides" : {  
+    "newtab": "newtab.html"
+},
+
+"permissions": ["activeTab"]
+
+}
